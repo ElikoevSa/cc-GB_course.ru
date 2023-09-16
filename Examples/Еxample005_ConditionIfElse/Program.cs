@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Enter You name: ");
-string username = Console.Readline();
-if(username == "Маша"){
+string username = Console.ReadLine();
+if(username.ToLower() == "маша"){
     Console.WriteLine("Это же МАША!!!");
 
 }
