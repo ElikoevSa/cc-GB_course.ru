@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
+    "c:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {}
   },
   "projects": {
-    "C:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
+    "c:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectUniqueName": "c:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "projectName": "Example001_HelloConsole",
-        "projectPath": "C:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+        "projectPath": "c:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
         "packagesPath": "C:\\Users\\trade\\.nuget\\packages\\",
-        "outputPath": "C:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\obj\\",
+        "outputPath": "c:\\gbCourses\\cc-GB_course.ru\\Examples\\Example001_HelloConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trade\\AppData\\Roaming\\NuGet\\NuGet.Config"
