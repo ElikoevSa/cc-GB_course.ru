@@ -1,12 +1,14 @@
-﻿int[] array = new int[103];
+﻿using System;
+
+int[] array = new int[103];
 
 
 void FillArray (int[] collection)
 {
     int length = collection.Length;
     int i = 0 ; 
-    while(i>length){
-        collection[i] = new Random().Next(0,10000);
+    while(i<length){
+        collection[i] = new Random().Next(1,1020);
         i++;
     }
 }
