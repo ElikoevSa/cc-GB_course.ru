@@ -1,6 +1,6 @@
-﻿using System;
+﻿
 
-int[] array = new int[103];
+int[] array = new int[102103];
 
 
 void FillArray (int[] collection)
@@ -8,7 +8,7 @@ void FillArray (int[] collection)
     int length = collection.Length;
     int i = 0 ; 
     while(i<length){
-        collection[i] = new Random().Next(1,1020);
+        collection[i] = new Random().Next(1,10200);
         i++;
     }
 }
@@ -23,5 +23,23 @@ void PrintArray (int[] col){
     }
 }
 
+int IndexOff( int[] collection, int find){
+    int posirion = 0;
+
+    for (int i = 0; i < collection.Length; i++)
+    {
+         if (collection[i] == find)
+         {
+            posirion = i;
+            Console.WriteLine(posirion);
+            break;
+         }       
+    }
+    return posirion;
+}
+
 FillArray(array);
 PrintArray(array);
+
+int pos = IndexOff(array , 1000);
+Console.WriteLine(pos);
