@@ -1,0 +1,15 @@
+C:\gbCourses\cc-GB_course.ru\С#__new\bin\Debug\net6.0\С#__new.exe
+C:\gbCourses\cc-GB_course.ru\С#__new\bin\Debug\net6.0\С#__new.deps.json
+C:\gbCourses\cc-GB_course.ru\С#__new\bin\Debug\net6.0\С#__new.runtimeconfig.json
+C:\gbCourses\cc-GB_course.ru\С#__new\bin\Debug\net6.0\С#__new.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\bin\Debug\net6.0\С#__new.pdb
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.csproj.AssemblyReference.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.GeneratedMSBuildEditorConfig.editorconfig
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.AssemblyInfoInputs.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.AssemblyInfo.cs
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.csproj.CoreCompileInputs.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\refint\С#__new.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.pdb
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\С#__new.genruntimeconfig.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\obj\Debug\net6.0\ref\С#__new.dll
