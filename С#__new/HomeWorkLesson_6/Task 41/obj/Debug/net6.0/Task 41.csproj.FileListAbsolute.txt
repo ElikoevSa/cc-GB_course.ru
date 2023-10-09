@@ -1,0 +1,15 @@
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\bin\Debug\net6.0\Task 41.exe
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\bin\Debug\net6.0\Task 41.deps.json
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\bin\Debug\net6.0\Task 41.runtimeconfig.json
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\bin\Debug\net6.0\Task 41.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\bin\Debug\net6.0\Task 41.pdb
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.csproj.AssemblyReference.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.GeneratedMSBuildEditorConfig.editorconfig
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.AssemblyInfoInputs.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.AssemblyInfo.cs
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.csproj.CoreCompileInputs.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\refint\Task 41.dll
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.pdb
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\Task 41.genruntimeconfig.cache
+C:\gbCourses\cc-GB_course.ru\С#__new\HomeWorkLesson_6\Task 41\obj\Debug\net6.0\ref\Task 41.dll
