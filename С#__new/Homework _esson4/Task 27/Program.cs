@@ -9,10 +9,10 @@ int SumorDigits(int number){
     {
          result += number % 10;
          number /= 10;
-    }
+        }
     return result;
 }
 
 
 
-System.Console.WriteLine(SumorDigits(1234));
+System.Console.WriteLine(SumorDigits(82));
