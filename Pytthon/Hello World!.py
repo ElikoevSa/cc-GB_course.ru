@@ -1,50 +1,18 @@
-# Задача №1.  За день машина проезжает n километров.
-# Сколько дней нужно, чтобы проехать маршрут длиной
-# m километров? При решении этой задачи нельзя пользоваться условной конструкцией if и циклами.
-# Input:
-# n = 700км/д
-# s= 750км
-# Output:
-# 2
-# import this
-# import math
-# import os
-
-# os.system("cls")
-
-# n = int(input("Введите скорость автомобиля : "))
-# m = int(input("Введите необходимое расстоние : "))
-
-# # print(math.ceil(m/n))
-# print((m + n-1)//n)
-# print(m//n + (m%n > 0))
-# x = int(input('Qty of student in 1.class: '))
-# y = int(input('Qty of student in 2.class: '))
-# z = int(input('Qty of student in 3.class: '))
-
-# print(f"It is required to buy {(-(-x//2)-(-y//2)-(-z//2))} scool desks")
-# print(f"It is required to buy {(x+1)//2+ (y+1)//2+ (z+1)//2} scool desks")
+import random
+import pandas as pd
+import numpy as np
 
 
-# Вагоны в электричке пронумерованы натуральными числами, начиная с 1
-# (при этом иногда вагоны нумеруются от «головы» поезда, а иногда – с «хвоста»; это
-#   зависит от того, в какую сторону едет электричка). В каждом вагоне написан его номер.
-# Витя сел в i-й вагон от головы поезда и обнаружил, что его вагон имеет номер j.
-# Он хочет определить, сколько всего вагонов в электричке. Напишите программу, которая
-# будет это делать или сообщать, что без дополнительной информации это сделать невозможно.
-# Input: 3 4(ввод на разных строках)
-# Output: 6
+lst = ['robot'] * 10
+lst += ['human'] * 10
+random.shuffle(lst)
+data = pd.DataFrame({'whoAmI':lst})
+data.head()
 
-# a = int(input("В какой сел? "))
-# b = int(input("Какой номер вагон по порядку? "))
-# if a == b:
-#     print("Невозможно посчитать количество вагонов")
-# else:
-#     # print("Всего ", a + b - 1," вагонов")
-#     print("Всего вагонов ", ((a + b)//2)*2)
+categories = np.unique(data['whoAmI'])
+one_hot = np.zeros((len(data), len(categories)), dtype=int)
+for i, cat in enumerate(categories):
+    one_hot[:, i] = (data['whoAmI'] == cat).astype(int)
 
-# year = int(input("Input the year to check: "))
-# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-#     print("YES")
-# else:
-#     print("NO")
+one_hot_df = pd.DataFrame(one_hot, columns=categories)
+one_hot_df.head()
