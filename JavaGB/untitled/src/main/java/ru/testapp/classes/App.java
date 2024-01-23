@@ -3,10 +3,11 @@ package ru.testapp.classes;
 import ru.testapp.enums.NotebookColors;
 import ru.testapp.enums.NotebookLabels;
 import ru.testapp.enums.NotebookOSNames;
+import ru.testapp.interfaces.IOneFilter;
 
 import java.util.*;
 
-public class App {
+public class App implements IOneFilter {
 
     Filters filters = new Filters();
     List<Notebook> notebooks = notebooksList();
@@ -62,6 +63,7 @@ public class App {
         );
     }
 
+    @Override
     public void oneFilter(){
         StringBuilder sb = new StringBuilder();
         sb.delete(0,sb.length());//clearing sb
@@ -97,6 +99,7 @@ public class App {
                 System.out.println(sb.append("Некорректно выбран пункт, пожалуйста введите корректное значение пункта повторно : "));
                 startApp();
             }
+
 
     }
 
